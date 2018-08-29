@@ -1,0 +1,9 @@
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\bin\Debug\Pooler.API.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\bin\Debug\Pooler.API.pdb
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\bin\Debug\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\bin\Debug\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\obj\Debug\Pooler.API.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\obj\Debug\Pooler.API.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\obj\Debug\Pooler.API.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.API\obj\Debug\Pooler.API.pdb

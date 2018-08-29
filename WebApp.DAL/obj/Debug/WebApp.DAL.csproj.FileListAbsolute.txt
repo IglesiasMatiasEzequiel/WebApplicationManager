@@ -1,0 +1,12 @@
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\WebApp.DAL.dll.config
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\WebApp.DAL.dll
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\WebApp.DAL.pdb
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\Microsoft.Web.Administration.dll
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\Pooler.API.dll
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\bin\Debug\Pooler.API.pdb
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\obj\Debug\WebApp.DAL.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\obj\Debug\WebApp.DAL.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\obj\Debug\WebApp.DAL.dll
+D:\Projects\VisualStudio\ClubGuias\WebApp.DAL\obj\Debug\WebApp.DAL.pdb

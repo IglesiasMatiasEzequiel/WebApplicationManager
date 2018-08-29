@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Compilers": "1.3.2"
+        },
+        "compile": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "build": {
+          "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props": {}
+        }
+      },
+      "Microsoft.Net.Compilers/1.3.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Compilers.props": {}
+        }
+      },
+      "AppCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.8"
+        },
+        "compile": {
+          "bin/placeholder/AppCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppCommon.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Compilers": "1.3.2"
+        },
+        "compile": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "build": {
+          "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props": {}
+        }
+      },
+      "Microsoft.Net.Compilers/1.3.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Compilers.props": {}
+        }
+      },
+      "AppCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.8"
+        },
+        "compile": {
+          "bin/placeholder/AppCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppCommon.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x64": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Compilers": "1.3.2"
+        },
+        "compile": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "build": {
+          "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props": {}
+        }
+      },
+      "Microsoft.Net.Compilers/1.3.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Compilers.props": {}
+        }
+      },
+      "AppCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.8"
+        },
+        "compile": {
+          "bin/placeholder/AppCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppCommon.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x86": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Compilers": "1.3.2"
+        },
+        "compile": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "build": {
+          "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props": {}
+        }
+      },
+      "Microsoft.Net.Compilers/1.3.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Net.Compilers.props": {}
+        }
+      },
+      "AppCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.8"
+        },
+        "compile": {
+          "bin/placeholder/AppCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/1.0.8": {
+      "sha512": "Mrl8R7fzrb4/TxsuqVeXxyuAp7j81MJTCHLWxsMAVeuPqjZ7Y/Zg52q0yAPfmrvA2Nx/gkAsWoed/rSToJuLFg==",
+      "type": "package",
+      "path": "microsoft.codedom.providers.dotnetcompilerplatform/1.0.8",
+      "files": [
+        "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+        "content/net45/web.config.install.xdt",
+        "content/net45/web.config.uninstall.xdt",
+        "content/net46/web.config.install.xdt",
+        "content/net46/web.config.uninstall.xdt",
+        "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+        "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+        "microsoft.codedom.providers.dotnetcompilerplatform.1.0.8.nupkg.sha512",
+        "microsoft.codedom.providers.dotnetcompilerplatform.nuspec",
+        "tools/net45/install.ps1",
+        "tools/net45/uninstall.ps1"
+      ]
+    },
+    "Microsoft.Net.Compilers/1.3.2": {
+      "sha512": "usbCzvNYmSWTdlsJM8FYm1NgGPdM+njnBzerAn3xKGy4/prztHcofq7CMiO7Lb0AK71jXKUzmUuW9Fc0cIzdbQ==",
+      "type": "package",
+      "path": "microsoft.net.compilers/1.3.2",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "build/Microsoft.Net.Compilers.props",
+        "microsoft.net.compilers.1.3.2.nupkg.sha512",
+        "microsoft.net.compilers.nuspec",
+        "tools/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "tools/Microsoft.CSharp.Core.targets",
+        "tools/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "tools/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/Microsoft.CodeAnalysis.Scripting.dll",
+        "tools/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "tools/Microsoft.CodeAnalysis.dll",
+        "tools/Microsoft.DiaSymReader.Native.amd64.dll",
+        "tools/Microsoft.DiaSymReader.Native.x86.dll",
+        "tools/Microsoft.VisualBasic.Core.targets",
+        "tools/System.AppContext.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/System.Diagnostics.StackTrace.dll",
+        "tools/System.IO.FileSystem.Primitives.dll",
+        "tools/System.IO.FileSystem.dll",
+        "tools/System.Reflection.Metadata.dll",
+        "tools/VBCSCompiler.exe",
+        "tools/VBCSCompiler.exe.config",
+        "tools/csc.exe",
+        "tools/csc.exe.config",
+        "tools/csc.rsp",
+        "tools/csi.exe",
+        "tools/csi.rsp",
+        "tools/vbc.exe",
+        "tools/vbc.exe.config",
+        "tools/vbc.rsp"
+      ]
+    },
+    "AppCommon/1.0.0": {
+      "type": "project",
+      "path": "../AppCommon/AppCommon.csproj",
+      "msbuildProject": "../AppCommon/AppCommon.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "AppCommon >= 1.0.0",
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform >= 1.0.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Matias\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\VisualStudio\\ClubGuias\\Pooler.API\\Pooler.API.csproj",
+      "projectName": "Pooler.API",
+      "projectPath": "D:\\Projects\\VisualStudio\\ClubGuias\\Pooler.API\\Pooler.API.csproj",
+      "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\VisualStudio\\ClubGuias\\Pooler.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {
+            "D:\\Projects\\VisualStudio\\ClubGuias\\AppCommon\\AppCommon.csproj": {
+              "projectPath": "D:\\Projects\\VisualStudio\\ClubGuias\\AppCommon\\AppCommon.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+            "target": "Package",
+            "version": "[1.0.8, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

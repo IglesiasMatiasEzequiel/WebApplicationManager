@@ -1,0 +1,13 @@
+D:\Projects\VisualStudio\AppCommon\bin\Debug\AppCommon.dll
+D:\Projects\VisualStudio\AppCommon\bin\Debug\AppCommon.pdb
+D:\Projects\VisualStudio\AppCommon\obj\Debug\AppCommon.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\AppCommon\obj\Debug\AppCommon.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\AppCommon\obj\Debug\AppCommon.dll
+D:\Projects\VisualStudio\AppCommon\obj\Debug\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\AppCommon\bin\Debug\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\AppCommon\bin\Debug\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\AppCommon\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Debug\AppCommon.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Debug\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Debug\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Debug\AppCommon.csprojResolveAssemblyReference.cache

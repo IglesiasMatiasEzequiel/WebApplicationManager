@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    @Styles.Render("~/Content/Styles/Login.css")
+    @Styles.Render("~/Content/Styles/bootstrap/bootstrap.css")
+
+</head>
+<body>
+    <div class="container h-100 d-block">
+        <div class="w-50 align-middle">
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="User" required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+            </form>
+            <a href="#" class="forgot-password">Forgot the password?</a>
+        </div>
+    </div>
+</body>
+</html>
+

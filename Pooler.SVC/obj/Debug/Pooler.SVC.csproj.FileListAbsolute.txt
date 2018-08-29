@@ -1,0 +1,11 @@
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\Pooler.SVC.dll.config
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\Pooler.SVC.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\Pooler.SVC.pdb
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\Pooler.API.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\bin\Pooler.API.pdb
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\obj\Debug\Pooler.SVC.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\obj\Debug\Pooler.SVC.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\obj\Debug\Pooler.SVC.dll
+D:\Projects\VisualStudio\ClubGuias\Pooler.SVC\obj\Debug\Pooler.SVC.pdb

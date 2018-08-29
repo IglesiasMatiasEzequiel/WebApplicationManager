@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75A3745B-E10E-46B4-92F6-E47AEF4CB62B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pooler.API</RootNamespace>
+    <AssemblyName>Pooler.API</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connectors.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="Entities\ADO\Base\RequestBase.cs" />
+    <Compile Include="Entities\ADO\Base\ResponseBase.cs" />
+    <Compile Include="Entities\ADO\Query.cs" />
+    <Compile Include="Entities\ADO\Requests\RequestQuery.cs" />
+    <Compile Include="Entities\ADO\Responses\ResponseQuery.cs" />
+    <Compile Include="Entities\ADO\Responses\ResponseResult.cs" />
+    <Compile Include="Entities\ADO\Result.cs" />
+    <Compile Include="Entities\ADO\SQLAccess.cs" />
+    <Compile Include="Entities\ADO\SQLColumn.cs" />
+    <Compile Include="Entities\ADO\SQLDataReader.cs" />
+    <Compile Include="Entities\ADO\SQLParam.cs" />
+    <Compile Include="Entities\ADO\SQLRow.cs" />
+    <Compile Include="Entities\Exceptions\TokenNotValidException.cs" />
+    <Compile Include="Entities\Exceptions\NullResponseException.cs" />
+    <Compile Include="Entities\Exceptions\ConnectorNotFoundException.cs" />
+    <Compile Include="Entities\Exceptions\AppNotFoundException.cs" />
+    <Compile Include="Entities\Exceptions\QueryNotFoundException.cs" />
+    <Compile Include="ExternalPooler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppCommon\AppCommon.csproj">
+      <Project>{6C167B29-4565-4166-AC34-603EE02DD640}</Project>
+      <Name>AppCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <Version>1.0.8</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+D:\Projects\VisualStudio\ClubGuias\AppCommon\bin\Release\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\AppCommon\bin\Release\AppCommon.pdb
+D:\Projects\VisualStudio\ClubGuias\AppCommon\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Release\AppCommon.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Release\AppCommon.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Release\AppCommon.dll
+D:\Projects\VisualStudio\ClubGuias\AppCommon\obj\Release\AppCommon.pdb
